@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,9 +23,17 @@
         header,
         nav,
         a,
-        footer {
+        footer th body,
+        h1,
+        h3,
+        ul,
+        li,
+        td,
+        th {
             font-family: Roboto;
+            color: white;
         }
+
 
         header {
 
@@ -30,6 +41,11 @@
             padding-bottom: 10px;
             margin-bottom: 0px;
             text-align: center;
+            background-color: black;
+            color: white;
+            border: white;
+            border-style: solid;
+            border-radius: 0px;
         }
 
         footer {
@@ -44,8 +60,8 @@
 
         .footer-text {
             margin: 0px;
-        }   
-        
+        }
+
         nav {
             display: flex;
             justify-content: center;
@@ -55,7 +71,7 @@
         .about {
             border: none;
             scale: 1.1;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
 
         a {
@@ -78,10 +94,11 @@
             width: 200px;
             text-align: center;
             display: flex;
+            color: white;
         }
 
         td {
-          border: solid;
+            border: solid;
         }
 
         .info {
@@ -106,14 +123,23 @@
 
 <body>
     <div>
-        <header><h1>Team 14</h1></header>
+        <header>
+            <h1>Team 14</h1>
+        </header>
 
-        <nav> 
+        <nav>
             <a href="index.html">Home</a>
             <a href="about.html" class="about">About</a>
             <a href="contact.html">Contact</a>
         </nav>
     </div>
+
+
+    <style>
+        body {
+            background-color: #5382d3;
+        }
+    </style>
 
     <div class="info">
         <table>
@@ -137,7 +163,7 @@
                 <td>0</td>
             </tr>
 
-        </table> 
+        </table>
 
         <h3>Things About Us</h3>
         <ul>
@@ -150,15 +176,16 @@
 
     <hr>
     <footer>
-            <p class="footer-text">
-                CST336 Internet Programming. 2025&#169; Nguyen, Rodriguez, Romo, Pham
-            </p>
+        <p class="footer-text">
+            CST336 Internet Programming. 2025&#169; Nguyen, Rodriguez, Romo, Pham
+        </p>
 
-            <p class="footer-text">
-                Disclaimer: The information in this webpage is fictious. It is used for academic purposes only.
-            </p>
+        <p class="footer-text">
+            Disclaimer: The information in this webpage is fictious. It is used for academic purposes only.
+        </p>
 
         <img src="images/csumb.png" alt="CSUMB Logo" class="logo">
     </footer>
 </body>
+
 </html>
