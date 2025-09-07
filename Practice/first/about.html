@@ -23,7 +23,7 @@
         header,
         nav,
         a,
-        footer th body,
+        th body,
         h1,
         h3,
         ul,
@@ -36,35 +36,57 @@
 
 
         header {
-
             font-family: 'Asimovian', sans-serif;
             padding-bottom: 10px;
             margin-bottom: 0px;
             text-align: center;
             background-color: black;
-            color: rgb(255, 255, 255);
+            color: white;
             border: rgb(255, 255, 255);
+            border-width: 1px;
             border-style: solid;
-            }
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            box-sizing: border-box;
+        }
 
         footer {
+            margin-top: 0px;
             font-size: 13px;
             color: navy;
-
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            background-color: black;
+
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            box-sizing: border-box;
         }
 
         .footer-text {
             margin: 0px;
+            color: gray;
         }
 
         nav {
+            background-color: goldenrod;
+            border-color: black;
             display: flex;
             justify-content: center;
             margin-bottom: 5%;
+            border: rgb(255, 255, 255);
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 0px;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            box-sizing: border-box;
         }
 
         .about {
@@ -136,7 +158,7 @@
 
     <style>
         body {
-            background-color: #5382d3;
+            background-color: #234681;
         }
     </style>
 
@@ -175,6 +197,9 @@
 
     <hr>
     <footer>
+
+        <img src="images/csumb.png" alt="CSUMB Logo" class="logo">
+
         <p class="footer-text">
             CST336 Internet Programming. 2025&#169; Nguyen, Rodriguez, Romo, Pham
         </p>
@@ -183,7 +208,6 @@
             Disclaimer: The information in this webpage is fictious. It is used for academic purposes only.
         </p>
 
-        <img src="images/csumb.png" alt="CSUMB Logo" class="logo">
     </footer>
 </body>
 

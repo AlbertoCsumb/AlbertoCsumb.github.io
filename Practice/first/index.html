@@ -5,24 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
 
     <style>
         p,
         header,
         nav,
-        a,
-        footer {
+        a {
             color: rgb(255, 255, 255);
             font-family: Roboto;
         }
 
         header {
+
+
+            font-family: 'Asimovian', sans-serif;
             padding-bottom: 10px;
             margin-bottom: 0px;
             text-align: center;
@@ -31,22 +30,35 @@
             border: rgb(255, 255, 255);
             border-width: 1px;
             border-style: solid;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            box-sizing: border-box;
 
         }
 
         footer {
-
+            margin-top: 0px;
             font-size: 13px;
             color: navy;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            background-color: black;
+
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            box-sizing: border-box;
         }
 
         .footer-text {
             margin: 0px;
+            color: gray;
         }
+
 
         nav {
             background-color: goldenrod;
@@ -58,6 +70,12 @@
             border-width: 1px;
             border-style: solid;
             border-radius: 0px;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            box-sizing: border-box;
+
+
         }
 
         .home {
@@ -114,7 +132,9 @@
         }
 
         hr {
-            margin-top: 20%;
+            margin-top: 10%;
+            margin-bottom: 0%;
+
         }
 
         .logo {
@@ -139,7 +159,7 @@
 
     <style>
         body {
-            background-color: #5382d3;
+            background-color: #234681;
         }
     </style>
 
@@ -164,12 +184,24 @@
         </div>
 
         <div>
-            <p>Hey! Thanks for visting our website. We are computer science students at CSUMB. Check out our page!</p>
+            <p style="text-align: center; margin-top: 50px;">Hey! Thanks for visting our website. We are computer
+                science students at CSUMB. Check out our page!</p>
+        </div>
+
+        <div>
+
+
+            <p style="text-align: center; margin-top: 50px;"><em>"With ordinary talent and extraordinary perseverance,
+                    all
+                    thinsg are attainable"</em> <br> -Thomas F. Buxton <br> </p>
+
+
         </div>
 
         <hr>
 
         <footer>
+            <img src="images/csumb.png" alt="CSUMB Logo" class="logo">
             <p class="footer-text">
                 CST336 Internet Programming. 2025&#169; Nguyen, Rodriguez, Romo, Pham
             </p>
@@ -178,8 +210,25 @@
                 Disclaimer: The information in this webpage is fictious. It is used for academic purposes only.
             </p>
 
-            <img src="images/csumb.png" alt="CSUMB Logo" class="logo">
         </footer>
+    </div>
+
+
+    <div>
+        <bottompart>
+
+            <style>
+                bottompart {
+                    display: block;
+                    width: 100vw;
+                    height: 100px;
+                    background-color: black;
+                    margin-left: calc(-50vw + 50%);
+                    margin-right: calc(-50vw + 50%);
+                    box-sizing: border-box;
+                }
+            </style>
+        </bottompart>
     </div>
 
 </body>
